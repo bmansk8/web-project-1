@@ -13,8 +13,24 @@
 	 -->
 
 	<form>
-		<input type="text" placeholder="username" name="username">
-		<input type="password" placeholder="password" name="password">
+
+		<!-- alt way is
+			<label for='custom id' />
+			<input id='custom id' />
+			changing type from text to email
+			alows for required to be used better
+		 -->
+
+		<label>
+			Email:
+			<input type="email" placeholder="username" name="username" required>
+		</label>
+		
+		<label>
+			Password:
+			<input type="password" placeholder="password" name="password" required>
+		</label>
+		
 		<button>Submit</button>
 	</form>
 
