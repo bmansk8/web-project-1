@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>registrationForm</title>
+</head>
+<body>
+
+<h1>Register please</h1>
+
+	<form>
+		<label>
+			First name:
+			<input type="text" placeholder="john" name="username" required>
+		</label>
+		
+		<label>
+			Last name:
+			<input type="text" placeholder="doe" name="password" required>
+		</label>
+
+		<label>Male:
+			<input value='MALE' type="radio" name="Gender">
+		</label>
+		<label>Female:
+			<input value='FEMALE' type="radio" name="Gender">
+		</label>
+		<label>Other:
+			<input value='OTHER' type="radio" name="Gender">
+		</label>
+
+		<label>
+			Email:
+			<input type="email" placeholder="username" name="username" required>
+		</label>
+		
+		<label>
+			Password:
+			<input type="password" placeholder="password" name="password" required>
+		</label>
+
+		<label>BirthDay
+			<select name='day'>
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+			</select>
+			<select name='month'>
+				<option>may</option>
+				<option>june</option>
+				<option>july</option>
+			</select>
+			<select name='year'>
+				<option>2000</option>
+				<option>2001</option>
+				<option>2002</option>
+				<option>2003</option>
+				<option>2004</option>
+			</select>
+		</label>
+
+		<label>I agree to the terms and conditions
+			<input value='yes' type="radio" name="terms">
+		</label>
+
+		<button>Submit</button>
+	</form>
+
+</body>
+</html>
